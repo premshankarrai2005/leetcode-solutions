@@ -1,3 +1,4 @@
+// Problem No:-2723. Add Two Promises
 const addTwoPromises = (p1, p2) => {
     return Promise.all([p1, p2]).then(([val1, val2]) => val1 + val2);
 }
